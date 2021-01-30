@@ -1,0 +1,29 @@
+@font-face {
+   font-family: 'PT Sans';
+   src: local('PT Sans'), local('PTSans-Regular'),
+      url('../fonts/PTSans-Regular.woff2') format('woff2'),
+      url('../fonts/PTSans-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Akzidenz-Grotesk BQ';
+   src: local('Akzidenz-Grotesk BQ Condensed'), local('AkzidenzGroteskBQ-Cnd'),
+      url('../fonts/AkzidenzGroteskBQ-Cnd.woff2') format('woff2'),
+      url('../fonts/AkzidenzGroteskBQ-Cnd.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Bebas';
+   src: local('Bebas Regular'), local('Bebas-Regular'),
+      url('../fonts/Bebas-Regular.woff2') format('woff2'),
+      url('../fonts/Bebas-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
