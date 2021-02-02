@@ -78,7 +78,7 @@ gulp.task('server', function () {
 gulp.task('styles', function () {
    return gulp
       .src(path.styles.src)
-      .pipe(wait(100))
+      .pipe(wait(50))
       .pipe(sass().on('error', sass.logError))
       .pipe(postcss([autoprefixer()]))
       .pipe(webpCss({ webpClass: '', noWebpClass: '.no-webp' }))

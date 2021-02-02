@@ -1,0 +1,31 @@
+.button {
+   display: inline-block;
+   height: 50px;
+   font-family: 'Bebas';
+   font-size: 15px;
+   letter-spacing: 0.1em;
+   line-height: 50px;
+   &_w {
+      padding: 0 33px;
+      background-color: #fff;
+      color: #000000;
+   }
+   &_b {
+      padding: 0 33px;
+      background-color: #000000;
+      color: #fff;
+   }
+
+   &_trw {
+      text-align: left;
+      color: #fff;
+      text-decoration: underline;
+      background-color: transparent;
+   }
+   &_trb {
+      text-align: left;
+      color: #000000;
+      text-decoration: underline;
+      background-color: transparent;
+   }
+}

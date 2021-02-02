@@ -1,0 +1,36 @@
+.catering-info {
+   display: flex;
+   background-color: #000000;
+   &__column {
+      flex: 0 0 50%;
+   }
+
+   &__img {
+      height: 100%;
+   }
+
+   &__body {
+      padding: 75px 0 75px 60px;
+   }
+
+   &__title {
+      margin-bottom: 39px;
+   }
+
+   &__text {
+      font-size: 15px;
+      color: #ffffff;
+      line-height: 25px;
+      text-align: left;
+      margin-bottom: 56px;
+   }
+
+   &__buttons {
+   }
+
+   &__button {
+      &:first-child {
+         margin-right: 14px;
+      }
+   }
+}
