@@ -1,0 +1,75 @@
+.why-us {
+   background-color: #ebebeb;
+   &__row {
+      display: flex;
+   }
+   &__column {
+      flex: 0 0 50%;
+      background-color: #000000;
+      &:first-child {
+         display: flex;
+         justify-content: flex-end;
+         align-items: center;
+         padding-right: 60px;
+      }
+   }
+
+   &__title {
+      display: inline-block;
+   }
+
+   &__image {
+      height: 100%;
+      padding-bottom: 21.3%;
+   }
+   &__body {
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 50px;
+   }
+
+   &__body-column {
+      flex: 0 0 50%;
+   }
+
+   &__item {
+      display: flex;
+      &:nth-child(odd) {
+         margin-right: 28px;
+      }
+      margin-bottom: 50px;
+      &-img {
+         height: 100px;
+         width: 100px;
+         background-color: #000000;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex: 0 0 auto;
+         margin-right: 12px;
+      }
+
+      &-descr {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+      }
+
+      &-title {
+         font-size: 25px;
+         font-family: 'Akzidenz-Grotesk BQ Condensed';
+         font-weight: bold;
+         text-transform: uppercase;
+         line-height: 25px;
+         text-align: left;
+         letter-spacing: 0.1em;
+      }
+
+      &-text {
+         font-size: 15px;
+         font-family: 'PT Sans';
+         line-height: 25px;
+         text-align: left;
+      }
+   }
+}

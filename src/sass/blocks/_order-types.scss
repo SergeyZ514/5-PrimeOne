@@ -1,0 +1,58 @@
+.order-types {
+   padding: 75px 0 40px 0;
+   &__body {
+      display: flex;
+   }
+
+   &__column {
+      flex: 0 0 25%;
+      margin-bottom: 30px;
+   }
+
+   &__item {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+   }
+
+   &__image {
+      display: block;
+      padding-bottom: 102.3%;
+      margin-bottom: 25px;
+   }
+
+   &__title {
+      display: block;
+      max-width: 175px;
+      font-size: 25px;
+      font-family: 'Akzidenz-Grotesk BQ Condensed';
+      color: #000000;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      line-height: 25px;
+      padding-left: 10px;
+      margin-bottom: 30px;
+   }
+
+   &__text {
+      flex: 1 1 auto;
+      max-width: 195px;
+      font-size: 15px;
+      line-height: 25px;
+      color: #000000;
+      padding-left: 10px;
+      margin-bottom: 23px;
+   }
+
+   &__button {
+      margin-bottom: 10px;
+      margin-left: 8px;
+      align-self: flex-start;
+   }
+
+   &__link {
+      margin-left: 8px;
+      align-self: flex-start;
+   }
+}

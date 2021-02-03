@@ -1,7 +1,6 @@
 .header {
    background-color: #fff;
    padding: 29px 0 33px 0;
-   max-width: 904px;
    margin: 0 auto;
    position: relative;
    overflow: hidden;
@@ -148,9 +147,10 @@
       transition: all 0.6s;
       z-index: 20;
       position: relative;
+      overflow: scroll;
    }
    &__menu-icon {
-      position: fixed;
+      position: absolute;
       left: 40px;
       top: 24px;
       display: none;
@@ -210,6 +210,9 @@
    }
    &__menu-list {
       list-style-type: none;
+      li {
+         display: inline-block;
+      }
    }
    &__overlay {
       position: fixed;

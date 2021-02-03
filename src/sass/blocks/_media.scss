@@ -37,6 +37,9 @@
       &__top {
          justify-content: flex-end;
       }
+      &__bottom {
+         margin-top: -50px;
+      }
 
       &__lang {
          justify-content: flex-start;
@@ -46,22 +49,8 @@
       }
 
       &__top-link {
-         display: block;
+         display: inline-block;
          margin-bottom: 30px;
-      }
-
-      &__bottom-menu-list {
-         &_l {
-            li {
-               margin-right: 20px;
-            }
-         }
-
-         &_r {
-            li {
-               margin-left: 20px;
-            }
-         }
       }
 
       &__bottom-menu-link {
@@ -73,10 +62,19 @@
          padding-left: 20px;
       }
    }
+   .order-types {
+      padding: 40px 0 20px 0;
+      &__body {
+         flex-wrap: wrap;
+      }
+      &__column {
+         flex: 0 0 50%;
+      }
+   }
 }
 @media (max-width: 576px) {
    .header {
-      padding-top: 90px;
+      padding: 20px 0;
       &__menu {
          width: 100%;
       }
@@ -94,6 +92,7 @@
       }
       &__bottom {
          justify-content: center;
+         margin: 0;
       }
       &__bottom-column {
          &:first-child,
@@ -108,49 +107,50 @@
          left: 20px;
          bottom: 5%;
       }
+      &__top-link {
+         font-size: 24px;
+      }
    }
+
    .catering-info {
-      .catering-info {
-         &__column {
-            flex: 1 1 100%;
-            margin: 0 auto;
-            display: flex;
-            flex-wrap: nowrap;
-            justify-content: center;
-            align-items: flex-start;
-            &:first-child {
-               display: none;
-            }
-
-            &__body {
-               padding: 40px 0;
-            }
-
-            &__title {
-               text-align: center;
-               font-size: 35px;
-               line-height: 35px;
-            }
-
-            &__text {
-               font-size: 12px;
-               line-height: 20px;
-               margin-bottom: 20px;
-            }
-
-            &__buttons {
-               display: flex;
-               flex-direction: column;
-               align-items: center;
-            }
-
-            &__button {
-               font-size: 12px;
-               &:first-child {
-                  margin: 0;
-               }
-            }
+      &__column {
+         flex: 1 1 100%;
+         margin: 0 auto;
+         display: flex;
+         flex-wrap: nowrap;
+         justify-content: center;
+         align-items: flex-start;
+         &:first-child {
+            display: none;
          }
+      }
+      &__body {
+         padding: 40px 10px;
+      }
+      &__title {
+         margin-bottom: 20px;
+         text-align: center;
+      }
+      &__text {
+         margin-bottom: 30px;
+      }
+      &__buttons {
+         text-align: center;
+      }
+   }
+   .order-types {
+      &__column {
+         flex: 1 1 100%;
+      }
+      &__title {
+         max-width: none;
+      }
+      &__text {
+         max-width: none;
+      }
+      &__item {
+         height: auto;
+         overflow: visible;
       }
    }
 }
