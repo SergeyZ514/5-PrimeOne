@@ -119,4 +119,3 @@ function adaptive_function() {
 }
 
 adaptive_function();
-//

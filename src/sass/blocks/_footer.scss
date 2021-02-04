@@ -1,0 +1,29 @@
+.footer {
+   height: 125px;
+   padding: 30px 0;
+   &__body {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+
+   &__column {
+      flex: 0 0 auto;
+   }
+
+   &__text {
+      font-size: 15px;
+      color: rgb(77, 77, 77);
+      line-height: 25px;
+   }
+
+   &__link {
+      text-decoration: underline;
+      font-size: 15px;
+      color: rgb(77, 77, 77);
+      line-height: 25px;
+   }
+
+   &__logo {
+   }
+}
