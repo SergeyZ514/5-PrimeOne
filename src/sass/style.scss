@@ -2,6 +2,7 @@
 @import 'base/mixins';
 @import 'base/fonts';
 @import 'base/reset-styles';
+@import 'base/ui';
 
 .container {
    max-width: 880px;
@@ -16,5 +17,4 @@
 @import 'blocks/why-us';
 @import 'blocks/contacts';
 @import 'blocks/footer';
-@import 'base/ui';
 @import 'blocks/media';
